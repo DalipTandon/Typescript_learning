@@ -1,7 +1,7 @@
 # Key Points in Typescript
 
 
-* Typescript is not a specific language , its a wrapper around javascript.
+* Typescript is not a specific language , its a wrapper around javascript that helps us to write better javascript.
 * it is basically used for type safety 
 * its just a development tool , not use in production
 * When we execute .ts file it creates a javascript file as well
