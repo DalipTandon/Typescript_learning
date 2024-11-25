@@ -22,3 +22,10 @@ function createUser4() {
     return { name: "", enailD: "", isActive: true };
 }
 createUser3({ name: "", enailD: "", isActive: true });
+var myUser = {
+    _id: "sfdsafdsf",
+    name: "dalip",
+    email: "d@d",
+    isActive: false
+};
+myUser.email = "h@h";

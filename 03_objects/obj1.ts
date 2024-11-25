@@ -26,15 +26,6 @@ function test2():{name:String,isPaid:boolean}{  //this indicates that return typ
 create({ name: "Dalip", emailID: "dalip@gmail.com" });
 
 
-
-
-
-
-
-
-
-
-
 //******************************Type Aliases****************************************************************************************************** */
 //Type Aliases allow defining types with a custom name 
 //It is basically creating a custome data types in typescript and type is the keyword for it
@@ -51,4 +42,30 @@ function createUser4():User{ //this means that the return type of the createUser
     return {name:"",enailD:"",isActive:true};
 }
 createUser3({name:"",enailD:"",isActive:true});
+
+
+
+
+
+
+//************readonly ,? */
+type  user={
+    readonly _id:string
+    name :string
+    email:string
+    isActive:boolean
+    credit?:number //the "?" here refers to that the credit field is optional
+}
+let myUser:user={
+     _id:"sfdsafdsf",
+    name :"dalip",
+    email:"d@d",
+    isActive:false
+}
+
+myUser.email="h@h"
+//myUser._id="asfd"; //we can't change the id as it is  marked readonly which means we can only read the data but can not modify it
+//IN case of arrays we can modify the array elements but can not modify the whole array
+
+
 export{}
