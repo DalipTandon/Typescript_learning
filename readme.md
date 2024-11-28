@@ -13,3 +13,8 @@
 # Syntax
 * let variable :type=vaue (all the types in typescript are all lower case)
 * let variable :type=vaue (all the types in typescript are all lower case)
+
+# Diff between types and interfaces , interfaces and abstract classes
+* we can have union and intersection in types not in interfaces
+* class can implements interfaces not types
+* we can have default methods in abstract class not in interfaces
